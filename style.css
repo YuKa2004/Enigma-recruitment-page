@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "dosis",sans-serif;
+}
+h1{
+    color:rgb(226, 226, 226);
+    text-shadow:1px 1px 4px #000 ;
+    
+}
+.logo{
+    flex-direction:row;
+    align-self:flex-start;
+    margin-top: 0px;
+    
+}
+.p1{
+    align-self: center;
+    
+    font-size: 250px;
+    color: #ff6600;
+}
+.p2{
+    align-self: center;
+    
+    font-size: 50px;
+    color: #ff9900;
+}
+.p3{
+    font-family: "poppins",sans-serif;
+    font-size: 70px;
+    flex-direction: row;
+    align-self: center;
+    
+    
+    color: #ff9900;
+    
+   
+    
+    
+
+}
+.p4{
+    
+    color: white;
+    font-size: 30px;
+    
+    
+}
+
+.p5{
+    color: white;
+    font-size: 50px;
+}
+
+.p6{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;;
+}
+.p7{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+
+
+
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.image1{
+    padding: 10px;
+    border-radius: 10%;
+    
+   
+    height: 450px;
+    width:600px;
+}
+.image2{
+    padding: 10px;
+    border-radius: 10%;
+    
+    
+    
+    height: 450px;
+    width:600px;
+
+}
+section{
+    height: 100vh;
+    
+    
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.cont1{
+    display: flex;
+    
+}
+.cont2{
+    display: flex;
+    justify-content: center; /* align horizontal */
+}  
+.cont3{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    
+    font-family: Helvetica, sans-serif;
+    
+}
+.button1{
+    font-size:30px;
+}
+
+   
+    
+    
+    
+
+
+.one{
+    display: flex;
+    align-items: flex-start;
+    background-image:url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    
+}
+.two{
+    
+    
+    
+    
+    
+
+    background-color: burlywood;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+.three{
+    background-color: plum;
+    background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);   
+}
+.four{
+    background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-color: aliceblue;
+}
+
+.button1 {
+    transition-duration: 0.4s;
+
+    
+  }
+  
+  .button1:hover {
+    background-color: #04AA6D; 
+    color: white;
+  }
